@@ -1,0 +1,11 @@
+.localizador {
+    height: 70px;
+    border: solid 3px black;
+    font-size: 30px;
+}
+
+.msg-usuario {
+    font-weight: bold;
+    font-size: 40px;
+    height: 47px;
+}

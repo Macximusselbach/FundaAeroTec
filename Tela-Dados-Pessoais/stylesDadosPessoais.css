@@ -1,0 +1,11 @@
+.input-dados {
+    border: solid 3px black;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.input-nome {
+    min-width: 50rem;
+}
+

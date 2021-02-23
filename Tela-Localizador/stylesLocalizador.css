@@ -2,6 +2,7 @@
     height: 70px;
     border: solid 3px black;
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .msg-usuario {

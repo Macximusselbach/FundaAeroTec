@@ -1,0 +1,45 @@
+body {
+    display: block;
+}
+
+.poltrona, .corredor {
+    display: inline-block;
+    margin-right: 2rem;
+    border: solid 1px;
+    width: 130px;
+    margin-top: 1rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.corredor {
+    width: 12rem;
+    height: initial;
+    border: none;
+}
+
+.sub-titulo, .poltrona {
+    text-align: center;
+}
+
+.btn-continuar {
+    text-align: right;
+    margin-top: 31px;
+}
+
+.txt-usuario {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.assentoSelecionado {
+    background-color: green;
+}
+
+.indisponivel {
+    background-color: red;
+}

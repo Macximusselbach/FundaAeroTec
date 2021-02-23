@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Pessoais</title>
+    <link rel="stylesheet" href="../Utilitários/utilities.css">
+    <link rel="stylesheet" href="./stylesDadosPessoais.css">
+</head>
+
+<body>
+    <div class="top-line">Fundatec</div>
+    <div class="title">
+        <h1 class="ml-2">FundaAeroTec</h1>
+    </div>
+    <div class="justify-center font-size-20">
+        <h1>Informe os seus dados</h1>
+    </div>
+    <div class="justify-left ml-3">
+        <label for="cpf">CPF</label>
+        <label for="nomeCompleto" class="label-nome">Nome completo</label>
+    </div>
+    <div class="space-around">
+        <input type="number" class="input-cpf input-dados" id="cpf" placeholder="Ex.: 51346238902">
+        <input type="text" class="input-nome input-dados" id="nomeCompleto" minlength="10" maxlength="100">
+    </div>
+    <div class="justify-left ml-3">
+        <label for="dataNascimento" class="mt-1">Data de nascimento</label>
+        <label for="telefone" class="label-telefone mt-1">Telefone</label>
+        <spam class="spam-sexo mt-1">Sexo</spam>
+    </div>
+    <div>
+        <input type="date" class="input-data input-dados" id="dataNascimento" required>
+        <input type="number" class="input-telefone input-dados" id="telefone" placeholder="Ex.: 51346238902">
+        <input type="radio" class="input-radio1 display-inline" id="M" value="M" name="sexo"> <label
+            for="M">Masculino</label>
+        <input type="radio" class="input-radio2 display-inline" id="F" value="F" name="sexo"> <label
+            for="F">Feminino</label>
+    </div>
+    <div class="justify-left ml-3 mt-1">
+        <label for="nomeEmergencia">Contato de emergência</label>
+        <label for="telefoneEmergencia" class="label-telefone-emergencia">Telefone</label>
+    </div>
+    <div>
+        <input type="text" class="input-nome-emergencia input-dados" id="nomeEmergencia" minlength="10" maxlength="100">
+        <input type="number" class="input-telefone-emergencia input-dados" id="telefoneEmergencia"
+            placeholder="Ex.: 51346238902">
+    </div>
+    <div class="justify-center mt-2 font-size-40 bold txt-usuario" id="txtUsuario"></div>
+    <div class="justify-right mt-2 mr-2">
+        <button type="button" class="default-btn" id="btn-continuar">Continuar</button>
+    </div>
+    <script src="./telaDados.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 
 function nextPage() {
-    window.location.href = "TelaLocalizador.html";
-}
+    window.location.href = "../Tela-Localizador/TelaLocalizador.html";
+};
 
 document.getElementById("checkin").addEventListener("click", () => {
     nextPage();

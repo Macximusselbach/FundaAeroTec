@@ -1,11 +1,76 @@
 .input-dados {
     border: solid 3px black;
-    height: 60px;
     font-size: 30px;
-    margin-left: 30px;
 }
 
 .input-nome {
     min-width: 50rem;
 }
 
+.input-cpf {
+    min-width: 20rem;
+}
+
+.input-data {
+    min-width: 380px;
+    margin-left: 43px;
+}
+
+.input-telefone {
+    margin-left: 82px;
+}
+
+.input-radio1, .input-radio2 {
+    margin: 0px;
+    margin-left: 50px;
+    width: 30px;
+    height: 25px;
+}
+
+.input-radio2 {
+    margin-left: 40px;
+}
+
+.input-nome-emergencia {
+    margin-left: 43px;
+    min-width: 851px;
+}
+
+.input-telefone-emergencia {
+    max-width: 354px;
+    margin-left: 52px;
+}
+
+label, .spam-sexo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.label-cpf {
+    min-width: 20%;
+}
+
+.label-nome {
+    margin-left: 410px;
+}
+
+.label-telefone {
+    margin-left: 218px;
+}
+
+.spam-sexo {
+    margin-left: 335px;
+}
+
+.label-telefone-emergencia {
+    margin-left: 618px;
+}
+
+.default-btn {
+    margin-right: 9px;
+}
+
+.txt-usuario {
+    height: 47px;
+}

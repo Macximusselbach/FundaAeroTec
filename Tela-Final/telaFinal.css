@@ -1,0 +1,23 @@
+.poltrona-usuario {
+    height: 129px;
+}
+
+.poltrona-usuario {
+    display: inline-block;
+    border: solid 1px;
+    text-align: center;
+    width: 130px;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.txt-poltrona {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contato-emergencia {
+    text-align: center;
+}

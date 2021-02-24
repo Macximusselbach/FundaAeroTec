@@ -4,7 +4,7 @@ function nextPage() {
 };
 
 const localizadores = ["A75HB2", "B56T23", "2MJ03J", "3LQ7RZ", "BNS981", "MJ765S", "BN78JH",
-    "EUAN82", "28SN96"]
+    "EUAN82", "28SN96"];
 
 document.getElementById("btnContinuar").addEventListener("click", () => {
     const localizador = document.getElementById("localizador").value;

@@ -6,6 +6,7 @@ let poltronaMarcada = null;
 
 const assentos = document.getElementsByClassName("poltrona");
 
+
 for (let i = 0; i < assentos.length; i++) {
     let poltronaAtual = assentos[i];
 

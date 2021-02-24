@@ -12,4 +12,4 @@ document.getElementById("contatoEmergencia").innerText = "Caso de algo errado em
 
 document.getElementById("localizador").innerText = "Localizador " + localizador;
 
-window.setInterval(() => { window.location.href = "../Tela-Inicial/TelaInicial.html" }, 10 * 1000);
+window.setTimeout(() => { window.location.href = "../Tela-Inicial/TelaInicial.html" }, 10 * 1000);
